@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.bhargav.mithila1.MenuActivity">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="Logos"
+        android:onClick="hit4"
+        android:background="@android:color/darker_gray"
+        android:textColor="@android:color/widget_edittext_dark"
+        />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button"
+        android:layout_centerHorizontal="true"
+        android:text="Monuments"
+        android:onClick="hit3"
+        android:background="@android:color/white"
+        android:textColor="@android:color/widget_edittext_dark"
+        />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button2"
+        android:layout_centerHorizontal="true"
+        android:text="Great Personalities"
+        android:onClick="hit2"
+        android:background="@android:color/darker_gray"
+        android:textColor="@android:color/widget_edittext_dark"/>
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button3"
+        android:layout_centerHorizontal="true"
+        android:text="Country flags"
+        android:onClick="hit1"
+        android:background="@android:color/white"
+        android:textColor="@android:color/widget_edittext_dark"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/fin"
+        android:layout_above="@+id/button4"
+        />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:background="@drawable/shuffle"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:onClick="hits"
+         />
+
+</RelativeLayout>
